@@ -1,0 +1,61 @@
+HOW TO PUBLISH THE NEW SITE (GitHub web upload)
+===============================================
+Repo: https://github.com/bit-dave/Zed-Head-Games   Branch: main
+Live site: https://bit-dave.github.io/Zed-Head-Games/
+
+PART 1 - Unzip
+1. Download Zed-Head-Games_site_update.zip and unzip it. You'll get index.html,
+   styles.css and the other pages, plus an "assets" folder (with img, shots, video
+   and fonts folders inside) and the two .txt files.
+   The .txt files are just notes for you. Don't upload them.
+
+PART 2 - Upload (a computer is easiest, because it can keep the folders)
+ON A COMPUTER (Chrome, Edge, Safari or Firefox):
+1. Sign in to github.com and open https://github.com/bit-dave/Zed-Head-Games
+2. Click "Add file" > "Upload files".
+3. From the unzipped folder, select the "assets" FOLDER plus these files:
+   index.html, styles.css, privacy.html, contact.html, 404.html, sitemap.xml,
+   site.webmanifest, favicon.ico, apple-touch-icon.png
+   Drag them all onto the upload box together. Dragging the assets folder keeps
+   its subfolders. It's 64 files in total; GitHub allows up to 100 per upload.
+4. Wait until every file finishes uploading. The two trailer videos are 9 and 12 MB.
+5. Under "Commit changes", type a message like "Site update: new trailer, gallery, features".
+   Leave "Commit directly to the main branch" selected, then click "Commit changes".
+   Files with the same name (index.html, styles.css, privacy.html, contact.html) are replaced.
+
+ON A PHONE (Safari or Chrome). A phone can't upload folders, so upload each folder separately:
+   Open each link below while signed in, tap "choose your files", pick ALL the files
+   from that folder of the unzipped zip, then tap "Commit changes":
+   a) https://github.com/bit-dave/Zed-Head-Games/upload/main
+        -> the 9 loose files: index.html, styles.css, privacy.html, contact.html, 404.html,
+           sitemap.xml, site.webmanifest, favicon.ico, apple-touch-icon.png
+   b) https://github.com/bit-dave/Zed-Head-Games/upload/main/assets
+        -> site.js
+   c) https://github.com/bit-dave/Zed-Head-Games/upload/main/assets/img     -> all 7 files in assets/img
+   d) https://github.com/bit-dave/Zed-Head-Games/upload/main/assets/shots   -> all 42 files in assets/shots
+   e) https://github.com/bit-dave/Zed-Head-Games/upload/main/assets/video   -> all 3 files in assets/video
+   f) https://github.com/bit-dave/Zed-Head-Games/upload/main/assets/fonts   -> both files in assets/fonts
+   Typing a folder name at the end of the upload link creates that folder.
+   Tip: on iPhone, unzip by tapping the zip in the Files app.
+
+PART 3 - Delete the old files (listed in DELETE_THESE.txt)
+For each file:
+1. On https://github.com/bit-dave/Zed-Head-Games, tap the file's name to open it.
+2. Click the "..." (three dots) button at the top right of the file view and choose "Delete file".
+   (On a phone, if you don't see it, turn the screen sideways or switch the browser to
+   "Request Desktop Website" / "Desktop site".)
+3. Click "Commit changes..." and then "Commit changes" again.
+Repeat for all 19 files. Files with spaces in their names ("Botd Image ...") delete the same way.
+
+PART 4 - Check it
+1. GitHub Pages takes about 1-2 minutes to update after each commit. You can watch the
+   "Actions" tab (or the dot next to the latest commit) turn green.
+2. Open https://bit-dave.github.io/Zed-Head-Games/ and do a hard refresh
+   (computer: Ctrl+Shift+R or Cmd+Shift+R; phone: close the tab and reopen it),
+   because the browser may still show the old version for a bit.
+3. Check that the trailer plays, the screenshots open full-size, and the Privacy and Contact pages load.
+
+LATER - When the Play Store listing is live
+In index.html, replace both  #TODO-PLAY-STORE-LINK  with your Play Store URL
+(https://play.google.com/store/apps/details?id=YOUR.PACKAGE.ID). You can edit it right on
+github.com: open index.html, click the pencil icon, then Commit changes. Or just send River the link.

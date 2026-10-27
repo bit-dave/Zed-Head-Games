@@ -1,0 +1,40 @@
+FILES TO DELETE FROM github.com/bit-dave/Zed-Head-Games  (branch: main)
+=======================================================================
+GitHub's upload page can add or replace files but can't delete them, so
+remove these 19 files by hand (see UPLOAD_STEPS.txt, Part 3).
+Do the upload FIRST, then the deletes. Nothing on the new site links to any of these.
+(They stay in the repo's history, so nothing is lost forever.)
+
+Exact duplicates (byte-for-byte copies of another file):
+  Botd Image 2026-10-14 at 2.40.34 PM.png   - same as title_new.png
+  Botd Image 2026-10-14 at 2.41.01 PM.png   - same as silence_warning.png
+  Botd Image 2026-10-14 at 2.41.19 PM.png   - same as noise_stops.png
+  Botd Image 2026-10-14 at 2.41.33 PM.png   - same as level7_dark.png
+  Botd Image 2026-10-14 at 2.41.49 PM.png   - same as coming_soon.png
+  Browser_of_the_Dead_Trailer_2VHS.mp4      - same as trailer_vhs.mp4 (which is kept)
+
+Old early-build screenshots (replaced by the new gameplay gallery in assets/shots/):
+  02_door_broken.jpg
+  03_in_the_dark.jpg
+  04_they_see_you.jpg
+  05_the_yard.jpg
+  06_the_key.jpg
+  07_open_fire.jpg
+  08_the_red_one.jpg
+  09_last_shells.jpg       - was never used on the old site either
+  noise_stops.png
+  silence_warning.png
+  level7_dark.png
+  coming_soon.png          - "Halloween 2026" card; no launch date on the site for now
+
+Old hero image and old poster (replaced by assets/img/zhg_logo_*.webp and assets/img/poster_*.webp):
+  01_title.jpg
+  title_new.png
+
+KEEP (don't delete): trailer.mp4, trailer_vhs.mp4 (they're the "Earlier teasers"),
+google2781dc820d7a5f54.html (Google Search Console verification), .gitignore,
+and everything you upload from the zip.
+
+Heads-up: if you've posted a direct link to any of the files above anywhere else
+(YouTube description, socials, Play listing), that link will stop working once
+the file is deleted.

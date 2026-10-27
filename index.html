@@ -2,34 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zed Head Games — Browser of the Dead</title>
-  <meta name="description" content="Browser of the Dead is a mobile survival horror game from Zed Head Games. One flashlight. A pistol. No way out. Coming soon to Google Play.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Browser of the Dead | Mobile Survival Horror by Zed Head Games</title>
+  <meta name="description" content="Browser of the Dead is a top-down mobile survival horror shooter from Zed Head Games. 12 levels, boss fights, endless Horde mode, twin-stick touch aim and controller support. Coming soon to Google Play.">
+  <link rel="canonical" href="https://bit-dave.github.io/Zed-Head-Games/">
+  <meta name="theme-color" content="#070807">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" href="assets/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
+  <!-- Open Graph / social share card (uses the Google Play feature graphic) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Zed Head Games">
+  <meta property="og:title" content="Browser of the Dead | Mobile Survival Horror by Zed Head Games">
+  <meta property="og:description" content="Browser of the Dead is a top-down mobile survival horror shooter from Zed Head Games. 12 levels, boss fights, endless Horde mode, twin-stick touch aim and controller support. Coming soon to Google Play.">
+  <meta property="og:url" content="https://bit-dave.github.io/Zed-Head-Games/">
+  <meta property="og:image" content="https://bit-dave.github.io/Zed-Head-Games/assets/img/og_feature_graphic.jpg">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta property="og:image:alt" content="Browser of the Dead: Mobile Survival Horror. The Zed Head Games tombstone logo beside gameplay of the player shooting zombies in a flashlight cone.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Browser of the Dead | Mobile Survival Horror by Zed Head Games">
+  <meta name="twitter:description" content="Browser of the Dead is a top-down mobile survival horror shooter from Zed Head Games. 12 levels, boss fights, endless Horde mode, twin-stick touch aim and controller support. Coming soon to Google Play.">
+  <meta name="twitter:image" content="https://bit-dave.github.io/Zed-Head-Games/assets/img/og_feature_graphic.jpg">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"VideoGame","name":"Browser of the Dead",
+   "url":"https://bit-dave.github.io/Zed-Head-Games/","image":"https://bit-dave.github.io/Zed-Head-Games/assets/img/og_feature_graphic.jpg",
+   "description":"Top-down mobile survival horror shooter: 12 levels, boss fights, endless Horde mode, twin-stick touch aim, controller support, save and continue, and four difficulties.",
+   "genre":["Survival horror","Shooter"],"gamePlatform":"Android","operatingSystem":"Android","playMode":"SinglePlayer",
+   "author":{"@type":"Person","name":"David Riha"},
+   "publisher":{"@type":"Organization","name":"Zed Head Games","url":"https://bit-dave.github.io/Zed-Head-Games/","email":"zedheadgames.dev@gmail.com"}}
+  </script>
 </head>
 <body>
-  <nav class="nav">
-    <a class="brand" href="index.html">ZED HEAD GAMES</a>
-    <div>
-      <a href="index.html#trailer">Trailer</a>
-      <a href="index.html#shots">Screens</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="contact.html">Contact</a>
-    </div>
+  <a class="skip" href="#main">Skip to content</a>
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="index.html"><img src="assets/img/zhg_logo_240.webp" alt="" width="30" height="30"><span>ZED HEAD GAMES</span></a>
+    <ul>
+      <li><a href="index.html#trailer">Trailer</a></li>
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#screens">Screens</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </nav>
 
   <header class="hero">
-    <img class="logo" src="01_title.jpg" alt="Browser of the Dead — A Zed Head Games Production">
-    <p class="kicker">MOBILE SURVIVAL HORROR</p>
-    <h1>BROWSER OF<br>THE DEAD</h1>
-    <p class="tag">One flashlight. A pistol. Whatever is left of the city.</p>
-    <a class="btn" href="#trailer"><span>COMING SOON</span>Google Play</a>
-    <p class="tag" style="margin-top:12px;font-size:0.85em;letter-spacing:0.15em;opacity:0.8;">GOOGLE PLAY</p>
+    <img class="logo" src="assets/img/zhg_logo_480.webp" srcset="assets/img/zhg_logo_240.webp 240w, assets/img/zhg_logo_480.webp 480w" sizes="(min-width: 900px) 300px, 56vw" width="480" height="480" fetchpriority="high" alt="Zed Head Games logo: a zombie bursting out of a tombstone">
+    <div>
+      <p class="kicker"><span class="pre">Zed Head Games presents · </span>Mobile survival horror</p>
+      <h1>Browser of<br>the Dead</h1>
+      <p class="tag">One flashlight. A pistol. Whatever is left of the city.</p>
+      <div class="cta-row">
+        <!-- TODO(Dajori): replace #TODO-PLAY-STORE-LINK with your Google Play URL when the listing is public. -->
+        <a class="btn btn-play" href="#TODO-PLAY-STORE-LINK"><small>Coming soon to</small>Google Play</a>
+        <a class="btn btn-ghost" href="#trailer"><small>Watch the</small>Trailer</a>
+      </div>
+    </div>
   </header>
 
-  <main class="wrap">
-    <section class="section" id="about">
-      <h2>The door didn’t hold.</h2>
+  <main id="main" class="wrap">
+    <section class="section" id="trailer" aria-labelledby="trailer-h">
+      <h2 id="trailer-h">Trailer</h2>
+      <div class="video-frame">
+        <video controls playsinline preload="none" poster="assets/video/BOTD_trailer_poster.jpg" aria-label="Browser of the Dead official trailer">
+          <source src="assets/video/BOTD_trailer_v2_720p.mp4" type="video/mp4">
+          Your browser can’t play this video. <a href="assets/video/BOTD_trailer_v2_720p.mp4">Download the trailer</a>.
+        </video>
+      </div>
+      <p class="note">Real gameplay, captured on iPhone. <a href="assets/video/BOTD_trailer_v2_landscape_original.mp4">Full-quality 1080p version</a> (12 MB).</p>
+      <details class="teasers">
+        <summary>Earlier teasers</summary>
+        <div class="teaser-grid">
+          <figure>
+            <video controls playsinline preload="none" poster="assets/img/poster_vhs_teaser.webp"><source src="trailer_vhs.mp4" type="video/mp4"></video>
+            <figcaption>VHS teaser</figcaption>
+          </figure>
+          <figure>
+            <video controls playsinline preload="none" poster="assets/img/poster_original_teaser.webp"><source src="trailer.mp4" type="video/mp4"></video>
+            <figcaption>Original teaser</figcaption>
+          </figure>
+        </div>
+      </details>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-h">
+      <h2 id="about-h">The door didn’t hold.</h2>
       <p class="lead">You start in a house that is already lost. The street outside is worse. Twelve places stand between you and the end of this: a cemetery, a boarded police station, a flooded basement, the sewers, an army bunker. Keys are hidden. Doors stay shut until you find them. Some things only move when they hear you.</p>
       <div class="cards">
         <div class="card"><h3>The long way out</h3><p>City, graveyard, house, station, sewer, bunker. Each floor has its own lock, its own dead, and an exit you cannot skip.</p></div>
@@ -38,37 +98,104 @@
       </div>
     </section>
 
-    <section class="section" id="trailer">
-      <h2>Trailer</h2>
-      <video class="trailer" controls playsinline poster="title_new.png">
-        <source src="trailer_vhs.mp4" type="video/mp4">
-      </video>
-      <h3 style="margin-top:24px;font-size:18px;color:#d7c08a;">Original Trailer</h3>
-      <video class="trailer" controls playsinline poster="01_title.jpg">
-        <source src="trailer.mp4" type="video/mp4">
-      </video>
+    <section class="section" id="features" aria-labelledby="features-h">
+      <h2 id="features-h">What’s inside</h2>
+      <ul class="features">
+        <li><h3>12 levels</h3><p>City streets, a cemetery, a police station, the sewers, an army bunker and a C4 escape.</p></li>
+        <li><h3>Boss fights</h3><p>The Giant Zombie Turtle, the Laser Turtle, a tank on your tail, and the Chimera Commander waiting at the end.</p></li>
+        <li><h3>Endless Horde mode</h3><p>No keys and no exit. Just a clock, a score, and a street that gets meaner the longer you last.</p></li>
+        <li><h3>Twin-stick touch aim</h3><p>Move with one thumb and aim with the other, or keep the classic controls with aim assist. Your choice in Settings.</p></li>
+        <li><h3>Controller support</h3><p>Connect a gamepad: left stick moves, right stick aims.</p></li>
+        <li><h3>Save &amp; Continue</h3><p>Progress is checkpointed at the start of every level, so you can pick up right where you left off.</p></li>
+        <li class="wide"><h3>Four difficulties</h3><p>Ease in, or prove yourself. Beat the game on Hard to unlock Nightmare.</p>
+          <ul class="diff" aria-label="Difficulties"><li>Easy</li><li>Normal</li><li class="hard">Hard</li><li class="nm">Nightmare</li></ul></li>
+      </ul>
     </section>
 
-    <section class="section" id="shots">
-      <h2>Screenshots</h2>
-      <div class="shots">
-        <figure><img src="02_door_broken.jpg" alt="Woke up to a Nightmare"><figcaption>Woke up to a Nightmare</figcaption></figure>
-        <figure><img src="noise_stops.png" alt="When the noise stops"><figcaption>When the noise stops… they’re close</figcaption></figure>
-        <figure><img src="silence_warning.png" alt="In the dark"><figcaption>In the dark, silence is the only warning</figcaption></figure>
-        <figure><img src="level7_dark.png" alt="Level 7 sewers"><figcaption>The last sound you’ll hear is nothing</figcaption></figure>
-        <figure><img src="03_in_the_dark.jpg" alt="Ammo pickup dialogue"><figcaption>Watch the ammo</figcaption></figure>
-        <figure><img src="04_they_see_you.jpg" alt="Flashlight in a wooden hallway"><figcaption>One flashlight</figcaption></figure>
-        <figure><img src="05_the_yard.jpg" alt="Player at a green door"><figcaption>Find the exit</figcaption></figure>
-        <figure><img src="06_the_key.jpg" alt="Cemetery with a zombie and health"><figcaption>Cemetery</figcaption></figure>
-        <figure><img src="07_open_fire.jpg" alt="Player facing a zombie"><figcaption>Open fire</figcaption></figure>
-        <figure><img src="08_the_red_one.jpg" alt="Red zombie near the player"><figcaption>The red one</figcaption></figure>
-        <figure><img src="coming_soon.png" alt="Coming soon"><figcaption>Coming Soon</figcaption></figure>
-      </div>
+    <section class="section" id="screens" aria-labelledby="screens-h">
+      <h2 id="screens-h">Screenshots</h2>
+      <ul class="gallery">
+        <li><button type="button" data-full="assets/shots/01_title_screen.webp" data-cap="Title screen" aria-label="Open screenshot: Title screen">
+          <picture><source type="image/webp" srcset="assets/shots/01_title_screen_444.webp 444w, assets/shots/01_title_screen.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/01_title_screen_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: Title screen"></picture>
+          <span class="cap">Title screen</span></button></li>
+        <li><button type="button" data-full="assets/shots/02_cemetery_zombies.webp" data-cap="The cemetery" aria-label="Open screenshot: The cemetery">
+          <picture><source type="image/webp" srcset="assets/shots/02_cemetery_zombies_444.webp 444w, assets/shots/02_cemetery_zombies.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/02_cemetery_zombies_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: The cemetery"></picture>
+          <span class="cap">The cemetery</span></button></li>
+        <li><button type="button" data-full="assets/shots/03_abandoned_house.webp" data-cap="The abandoned house" aria-label="Open screenshot: The abandoned house">
+          <picture><source type="image/webp" srcset="assets/shots/03_abandoned_house_444.webp 444w, assets/shots/03_abandoned_house.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/03_abandoned_house_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: The abandoned house"></picture>
+          <span class="cap">The abandoned house</span></button></li>
+        <li><button type="button" data-full="assets/shots/04_giant_zombie_turtle_boss.webp" data-cap="Boss: the Giant Zombie Turtle" aria-label="Open screenshot: Boss: the Giant Zombie Turtle">
+          <picture><source type="image/webp" srcset="assets/shots/04_giant_zombie_turtle_boss_444.webp 444w, assets/shots/04_giant_zombie_turtle_boss.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/04_giant_zombie_turtle_boss_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: Boss: the Giant Zombie Turtle"></picture>
+          <span class="cap">Boss: the Giant Zombie Turtle</span></button></li>
+        <li><button type="button" data-full="assets/shots/05_police_station.webp" data-cap="The police station" aria-label="Open screenshot: The police station">
+          <picture><source type="image/webp" srcset="assets/shots/05_police_station_444.webp 444w, assets/shots/05_police_station.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/05_police_station_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: The police station"></picture>
+          <span class="cap">The police station</span></button></li>
+        <li><button type="button" data-full="assets/shots/06_basement.webp" data-cap="The flooded basement" aria-label="Open screenshot: The flooded basement">
+          <picture><source type="image/webp" srcset="assets/shots/06_basement_444.webp 444w, assets/shots/06_basement.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/06_basement_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: The flooded basement"></picture>
+          <span class="cap">The flooded basement</span></button></li>
+        <li><button type="button" data-full="assets/shots/07_city_sewers.webp" data-cap="The city sewers" aria-label="Open screenshot: The city sewers">
+          <picture><source type="image/webp" srcset="assets/shots/07_city_sewers_444.webp 444w, assets/shots/07_city_sewers.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/07_city_sewers_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: The city sewers"></picture>
+          <span class="cap">The city sewers</span></button></li>
+        <li><button type="button" data-full="assets/shots/08_laser_turtle_boss.webp" data-cap="Boss: the Laser Turtle" aria-label="Open screenshot: Boss: the Laser Turtle">
+          <picture><source type="image/webp" srcset="assets/shots/08_laser_turtle_boss_444.webp 444w, assets/shots/08_laser_turtle_boss.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/08_laser_turtle_boss_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: Boss: the Laser Turtle"></picture>
+          <span class="cap">Boss: the Laser Turtle</span></button></li>
+        <li><button type="button" data-full="assets/shots/10_c4_escape_soldiers.webp" data-cap="C4 escape: soldiers" aria-label="Open screenshot: C4 escape: soldiers">
+          <picture><source type="image/webp" srcset="assets/shots/10_c4_escape_soldiers_444.webp 444w, assets/shots/10_c4_escape_soldiers.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/10_c4_escape_soldiers_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: C4 escape: soldiers"></picture>
+          <span class="cap">C4 escape: soldiers</span></button></li>
+        <li><button type="button" data-full="assets/shots/11_tank_pursuit.webp" data-cap="Tank pursuit" aria-label="Open screenshot: Tank pursuit">
+          <picture><source type="image/webp" srcset="assets/shots/11_tank_pursuit_444.webp 444w, assets/shots/11_tank_pursuit.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/11_tank_pursuit_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: Tank pursuit"></picture>
+          <span class="cap">Tank pursuit</span></button></li>
+        <li><button type="button" data-full="assets/shots/12_twin_stick_tank_fight.webp" data-cap="Twin-stick aim vs. the tank" aria-label="Open screenshot: Twin-stick aim vs. the tank">
+          <picture><source type="image/webp" srcset="assets/shots/12_twin_stick_tank_fight_444.webp 444w, assets/shots/12_twin_stick_tank_fight.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/12_twin_stick_tank_fight_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: Twin-stick aim vs. the tank"></picture>
+          <span class="cap">Twin-stick aim vs. the tank</span></button></li>
+        <li><button type="button" data-full="assets/shots/13_chimera_commander.webp" data-cap="Boss: the Chimera Commander" aria-label="Open screenshot: Boss: the Chimera Commander">
+          <picture><source type="image/webp" srcset="assets/shots/13_chimera_commander_444.webp 444w, assets/shots/13_chimera_commander.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/13_chimera_commander_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: Boss: the Chimera Commander"></picture>
+          <span class="cap">Boss: the Chimera Commander</span></button></li>
+        <li><button type="button" data-full="assets/shots/14_rocket_finale.webp" data-cap="Rocket finale" aria-label="Open screenshot: Rocket finale">
+          <picture><source type="image/webp" srcset="assets/shots/14_rocket_finale_444.webp 444w, assets/shots/14_rocket_finale.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/14_rocket_finale_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: Rocket finale"></picture>
+          <span class="cap">Rocket finale</span></button></li>
+        <li><button type="button" data-full="assets/shots/15_you_survived.webp" data-cap="YOU SURVIVED" aria-label="Open screenshot: YOU SURVIVED">
+          <picture><source type="image/webp" srcset="assets/shots/15_you_survived_444.webp 444w, assets/shots/15_you_survived.webp 888w" sizes="(min-width: 900px) 210px, (min-width: 600px) 24vw, 32vw">
+          <img src="assets/shots/15_you_survived_444.jpg" width="444" height="749" loading="lazy" decoding="async" alt="Browser of the Dead gameplay screenshot: YOU SURVIVED"></picture>
+          <span class="cap">YOU SURVIVED</span></button></li>
+      </ul>
+    </section>
+
+    <section class="play-cta" id="play" aria-labelledby="play-h">
+      <p class="kicker">Android</p>
+      <h2 id="play-h">Coming soon to Google Play</h2>
+      <p>Browser of the Dead is in closed testing now. Questions, press or playtesting: <a href="mailto:zedheadgames.dev@gmail.com">zedheadgames.dev@gmail.com</a>.</p>
+      <!-- TODO(Dajori): replace #TODO-PLAY-STORE-LINK with your Google Play URL when the listing is public. -->
+      <a class="btn btn-play" href="#TODO-PLAY-STORE-LINK"><small>Coming soon to</small>Google Play</a>
     </section>
   </main>
 
+  <dialog class="lightbox" id="lightbox" aria-label="Screenshot viewer">
+    <div class="lb-inner">
+      <img id="lb-img" alt="">
+      <p class="lb-cap" id="lb-cap"></p>
+    </div>
+    <button class="lb-btn lb-close" type="button" aria-label="Close">✕</button>
+    <button class="lb-btn lb-prev" type="button" aria-label="Previous screenshot">‹</button>
+    <button class="lb-btn lb-next" type="button" aria-label="Next screenshot">›</button>
+  </dialog>
+
   <footer>
-    Zed Head Games · A game by David Riha · <a href="mailto:zedheadgames.dev@gmail.com">zedheadgames.dev@gmail.com</a> · <a href="privacy.html">Privacy Policy</a>
+    <p>Zed Head Games · A game by David Riha · <a href="mailto:zedheadgames.dev@gmail.com">zedheadgames.dev@gmail.com</a> · <a href="privacy.html">Privacy Policy</a></p>
   </footer>
+  <script src="assets/site.js" defer></script>
 </body>
 </html>
