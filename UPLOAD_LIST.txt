@@ -1,0 +1,25 @@
+Zed Head Games site update: press kit + social links + AI disclosure
+Built Oct 27, 2026 (America/New_York). Nothing has been uploaded.
+
+Upload ALL of these to the ROOT of the bit-dave/Zed-Head-Games repo (flat layout, no folders),
+replacing the existing files of the same name. Zip: site_social_update.zip
+
+NEW
+  presskit.html   Press kit page (fact sheet now has "AI disclosure" and "Social" rows; About/contact sections link Facebook, YouTube, X)
+  sitemap.xml     Same as before, plus the presskit.html URL
+
+CHANGED (replace)
+  index.html      Nav: "Press kit" link added. Footer: "Press kit" link + "Follow Zed Head Games: Facebook · YouTube · X"
+  contact.html    Same nav + footer changes
+  privacy.html    Same nav + footer changes
+  404.html        Same nav + footer changes (internal links keep the /Zed-Head-Games/ absolute paths)
+
+UNCHANGED (do not need re-uploading)
+  styles.css, all images/screenshots, and every other file already in the repo.
+
+Social links used (clean, no tracking parameters; all open in a new tab with rel="noopener"):
+  https://www.facebook.com/p/Zed-Head-Games-61595239507863/
+  https://www.youtube.com/@ZedHeadGames
+  https://x.com/zedheadgamesdev
+
+This zip replaces presskit_upload.zip (same 6 files, newer contents). Use this one only.
