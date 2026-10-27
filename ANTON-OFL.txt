@@ -1,0 +1,4 @@
+Anton (assets/fonts/anton-latin.woff2) is a Latin subset of Anton Regular,
+Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont).
+Licensed under the SIL Open Font License, Version 1.1: https://openfontlicense.org
+Self-hosted so the site makes no third-party font requests.
