@@ -85,10 +85,20 @@ h3 { font-size: 22px; margin: 0 0 6px; color: var(--ink); }
 .btn-play:hover { border-color: #fff; background: #111; }
 .btn-ghost { background: var(--red2); border: 1px solid var(--red); }
 .btn-ghost:hover { background: var(--red); }
+/* Free demo button (itch.io): the loudest button on the page */
+.btn-demo { background: #FF2828; border: 1px solid #FF2828; color: #000; box-shadow: 0 0 22px rgba(255, 40, 40, 0.35); }
+.btn-demo:hover { background: #000; color: #FF2828; }
+.btn-demo:hover small { color: var(--ink); }
+.btn-demo small { opacity: 1; color: #1a0000; }
+.btn-demo { font-family: var(--display); font-weight: 400; font-size: 21px; letter-spacing: 0.05em; text-transform: uppercase; }
+.btn-demo small { font-family: var(--ui); font-weight: 700; }
+.cta-note { font-family: var(--ui); font-size: 14px; color: var(--muted); margin: 12px auto 0; max-width: 46ch; }
+@media (max-width: 420px) { .hero .cta-row .btn { flex: 1 1 100%; } .hero .cta-row .btn-play, .hero .cta-row .btn-ghost { flex: 1 1 40%; } }
 @media (min-width: 900px) {
   .hero { display: grid; grid-template-columns: 300px 1fr; gap: 40px; align-items: center; text-align: left; width: min(var(--max), calc(100% - 48px)); margin: 0 auto; padding: 56px 0 16px; }
   .hero .logo { width: 300px; margin: 0; }
   .hero .tag { margin-left: 0; max-width: 44ch; }
+  .hero .cta-note { margin-left: 0; max-width: 60ch; }
   .cta-row { justify-content: flex-start; }
 }
 
@@ -143,6 +153,8 @@ dialog.lightbox::backdrop { background: rgba(0,0,0,0.92); }
 /* ---------- Play CTA ---------- */
 .play-cta { text-align: center; margin: 32px 0 8px; padding: 32px 18px; border-radius: 14px; border: 1px solid rgba(224,20,30,0.45); background: linear-gradient(180deg, rgba(90,0,0,0.35), rgba(0,0,0,0.5)); }
 .play-cta p { color: var(--muted); max-width: 52ch; margin: 0 auto 18px; }
+.play-cta .cta-row { justify-content: center; }
+.play-cta .cta-note { margin: 14px auto 0; }
 
 /* ---------- Footer / sub-pages ---------- */
 footer { border-top: 1px solid var(--line); margin-top: 40px; padding: 24px 16px 32px; text-align: center; color: var(--muted); font-family: var(--ui); font-size: 14px; }
