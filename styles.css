@@ -167,3 +167,14 @@ footer p { margin: 4px 0; }
 
 .kicker .pre { display: none; }
 @media (min-width: 600px) { .kicker .pre { display: inline; } }
+
+/* App Store button (iOS launch, Nov 2026) */
+.btn-appstore { display:inline-flex; flex-direction:row; align-items:center; justify-content:center; text-align:left; gap:10px; background:#fff; color:#000; border:1px solid #fff; }
+.btn-appstore span { display:flex; flex-direction:column; line-height:1.05; }
+.btn-appstore small { color:#222; opacity:1; }
+.btn-appstore .apple { width:22px; height:26px; flex:0 0 auto; }
+.btn-appstore:hover { background:#000; color:#fff; }
+.btn-appstore:hover small { color:#ddd; }
+/* LAUNCH SALE note: remove with the commented block in index.html after Nov 13, 2026 */
+.sale-note { font-family:var(--ui); display:inline-block; margin:10px 0 0; padding:6px 12px; border:1px dashed #FF2828; color:#ffd9d9; font-size:14px; }
+.sale-note b { color:#FF2828; }
